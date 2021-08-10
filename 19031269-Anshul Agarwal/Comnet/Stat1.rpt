@@ -1,0 +1,873 @@
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     1
+
+                            19031269-Anshul-Agarwal                             
+
+                          NODES: NODE FULL UTILIZATION                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODES:                   BUSY CENTRAL PROCESSORS            BUSY BUSES  
+  PORTS:                  BUSY INPUT PROCESSORS        BUSY OUTPUT PROCESSORS
+                         MEAN     MAX      UTIL%      MEAN     MAX      UTIL%
+______________________  _______  ______   _______    _______  ______   _______
+
+Itahari Lan.ITahari Te .0010000       1  .1000000     N/A      N/A      N/A   
+  Itahari Lan.Itahari       0.0       0       0.0        0.0       0       0.0
+
+Itahari Lan.Itahari Ro .0028821       1  .2882121   .0002910       1  .0290962
+  Itahari Lan.Itahari       0.0       0       0.0        0.0       0       0.0
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+
+Edinburgh Lan.Edinburg .0001667       1  .0166667     N/A      N/A      N/A   
+  Edinburgh Lan.Edinbu      0.0       0       0.0        0.0       0       0.0
+
+Edinburgh Lan.Edinburg .0019298       1  .1929848   .0001755       1  .0175487
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+  Edinburgh Lan.Edinbu      0.0       0       0.0        0.0       0       0.0
+
+Butwal  Lan.Butwal Tel .0013333       1  .1333333     N/A      N/A      N/A   
+  Butwal  Lan.Butwal L      0.0       0       0.0        0.0       0       0.0
+
+Butwal  Lan.Butwal Rou .0028885       1  .2888485   .0002908       1  .0290837
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+  Butwal  Lan.Butwal L      0.0       0       0.0        0.0       0       0.0
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     2
+
+                            19031269-Anshul-Agarwal                             
+
+                      NODES: PROCESSOR + DISK UTILIZATION                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                         DISK            DISK USAGE (KILOBYTES)       PROCESSOR
+                        REQSTS
+         NODE           GRNTED    AVERAGE        MAXIMUM      STD DEV    % UTIL
+______________________  ______  ____________  _____________  __________  ______
+
+  Itahari Lan.Ithari A       0         0.000          0.000       0.000  2.4489
+
+  Itahari Lan.ITahari        0         0.000          0.000       0.000  0.1000
+  Itahari Lan.Itahari        0         0.000          0.000       0.000  0.2882
+  Edinburgh Lan.Edinbu       0         0.000          0.000       0.000  0.0167
+  Edinburgh Lan.Edinbu       0         0.000          0.000       0.000  0.1930
+  Butwal  Lan.Butwal A       0         0.000          0.000       0.000  2.4378
+
+  Butwal  Lan.Butwal T       0         0.000          0.000       0.000  0.1333
+  Butwal  Lan.Butwal R       0         0.000          0.000       0.000  0.2888
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     3
+
+                            19031269-Anshul-Agarwal                             
+
+                         NODES: RECEIVED MESSAGE COUNTS                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+      RECEIVER            COUNT                   MESSAGE NAME
+______________________  __________  _________________________________________
+
+Edinburgh Lan.Edinburg       980    Itahari ATM Message Source               
+Edinburgh Lan.Edinburg       997    Butwal ATM Message Source                
+Edinburgh Lan.Edinburg         1    Ithahari Teller Message                  
+Edinburgh Lan.Edinburg         2    ButwalTeller Message                     
+
+Butwal  Lan.Butwal Atm         1    Butwal ATM Message Source                
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     4
+
+                            19031269-Anshul-Agarwal                             
+
+                              NODES: SESSION LEVEL                              
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                  SESSIONS IN PROGRESS
+NODE                        AVERAGE       STD DEV    MAXIMUM
+______________________   ___________   ___________   ________
+
+Itahari Lan.Ithari Atm          0.00          0.00          0
+
+Itahari Lan.ITahari Te          0.00          0.00          0
+Itahari Lan.Itahari Ro          0.00          0.00          0
+Edinburgh Lan.Edinburg          0.00          0.00          0
+Edinburgh Lan.Edinburg          0.00          0.00          0
+Butwal  Lan.Butwal Atm          0.00          0.00          0
+
+Butwal  Lan.Butwal Tel          0.00          0.00          0
+Butwal  Lan.Butwal Rou          0.00          0.00          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     5
+
+                            19031269-Anshul-Agarwal                             
+
+                           NODES: INPUT BUFFER TOTALS                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             PACKETS         BUFFER USE (P=PKTS, B=BYTES)
+NODE                   ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari Lan.Ithari Atm      3181        0          0          1          80 B
+
+Itahari Lan.ITahari Tel        5        0          0          0          40 B
+Itahari Lan.Itahari Rou    19022        0          0          4         169 B
+Edinburgh Lan.Edinburgh     6368        0          0          0         140 B
+Edinburgh Lan.Edinburgh    12737        0          0          3         177 B
+Butwal  Lan.Butwal Atm      3177        0          0          1          83 B
+
+Butwal  Lan.Butwal Tell        6        0          0          0          40 B
+Butwal  Lan.Butwal Rout    19064        0          0          4         180 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     6
+
+                            19031269-Anshul-Agarwal                             
+
+                          NODES: OUTPUT BUFFER TOTALS                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             PACKETS         BUFFER USE (P=PKTS, B=BYTES)
+NODE                   ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari Lan.Ithari Atm     15821        0          0          2         259 B
+
+Itahari Lan.ITahari Tel       15        0          0          0         129 B
+Itahari Lan.Itahari Rou    19022        0      88870      53860      180025 B
+Edinburgh Lan.Edinburgh     6369        0          0          2         163 B
+Edinburgh Lan.Edinburgh    12737        0         21         33         328 B
+Butwal  Lan.Butwal Atm     15852        0          0          2         291 B
+
+Butwal  Lan.Butwal Tell       29        0          0          1         140 B
+Butwal  Lan.Butwal Rout    19064        0      88824      52646      175191 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     7
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: INPUT NODE BUFFER POLICY                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+                         PACKETS        PACKETS          PACKETS     PACKETS
+NODE                     PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari Lan.Ithari At             0             0                0           0
+
+Itahari Lan.ITahari T             0             0                0           0
+Itahari Lan.Itahari R             0             0                0           0
+Edinburgh Lan.Edinbur             0             0                0           0
+Edinburgh Lan.Edinbur             0             0                0           0
+Butwal  Lan.Butwal At             0             0                0           0
+
+Butwal  Lan.Butwal Te             0             0                0           0
+Butwal  Lan.Butwal Ro             0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     8
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: OUTPUT NODE BUFFER POLICY                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+                         PACKETS        PACKETS          PACKETS     PACKETS
+NODE                     PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari Lan.Ithari At             0             0                0           0
+
+Itahari Lan.ITahari T             0             0                0           0
+Itahari Lan.Itahari R             0             0                0           0
+Edinburgh Lan.Edinbur             0             0                0           0
+Edinburgh Lan.Edinbur             0             0                0           0
+Butwal  Lan.Butwal At             0             0                0           0
+
+Butwal  Lan.Butwal Te             0             0                0           0
+Butwal  Lan.Butwal Ro             0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE     9
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: INPUT BUFFER USE BY PORT                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODE:                        PACKETS           BUFFER USE (P=PKTS, B=BYTES) 
+  CONNECTED LINKS      ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM  P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari Lan.Ithari Atm 1-30:
+  Itahari Link              3181        0          0          1          80 B
+
+Itahari Lan.ITahari Teller Machaine:
+  Itahari Link                 5        0          0          0          40 B
+Itahari Lan.Itahari Router:
+  Itahari Link             15836        0          0          3         140 B
+  WAN Cloud                 3186        0          0          1          40 B
+Edinburgh Lan.Edinburgh Server:
+  Edinburgh Link            6368        0          0          0         140 B
+Edinburgh Lan.Edinburgh Router:
+  WAN Cloud                 6368        0          0          2         140 B
+  Edinburgh Link            6369        0          0          1          83 B
+Butwal  Lan.Butwal Atm 1-30:
+  Butwal Link               3177        0          0          1          83 B
+
+Butwal  Lan.Butwal Teller Machaine:
+  Butwal Link                  6        0          0          0          40 B
+Butwal  Lan.Butwal Router:
+  WAN Cloud                 3183        0          0          1          83 B
+  Butwal Link              15881        0          0          3         140 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    10
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: OUTPUT BUFFER USE BY PORT                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODE:                        PACKETS           BUFFER USE (P=PKTS, B=BYTES) 
+  CONNECTED LINKS      ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM  P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari Lan.Ithari Atm 1-30:
+  Itahari Link             15821        0          0          2         259 B
+
+Itahari Lan.ITahari Teller Machaine:
+  Itahari Link                15        0          0          0         129 B
+Itahari Lan.Itahari Router:
+  Itahari Link              3186        0          0          2          40 B
+  WAN Cloud                15836        0      88870      53860      180025 B
+Edinburgh Lan.Edinburgh Server:
+  Edinburgh Link            6369        0          0          2         163 B
+Edinburgh Lan.Edinburgh Router:
+  WAN Cloud                 6369        0         20         33         280 B
+  Edinburgh Link            6368        0          0          6         140 B
+Butwal  Lan.Butwal Atm 1-30:
+  Butwal Link              15852        0          0          2         291 B
+
+Butwal  Lan.Butwal Teller Machaine:
+  Butwal Link                 29        0          0          1         140 B
+Butwal  Lan.Butwal Router:
+  WAN Cloud                15881        0      88824      52646      175191 B
+  Butwal Link               3183        0          0          2          83 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    11
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: INPUT PORT BUFFER POLICY                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+NODE:                    PACKETS        PACKETS          PACKETS     PACKETS
+  CONNECTED LINKS        PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari Lan.Ithari Atm 1-30:
+  Itahari Link                    0             0                0           0
+
+Itahari Lan.ITahari Teller Machaine:
+  Itahari Link                    0             0                0           0
+Itahari Lan.Itahari Router:
+  Itahari Link                    0             0                0           0
+  WAN Cloud                       0             0                0           0
+Edinburgh Lan.Edinburgh Server:
+  Edinburgh Link                  0             0                0           0
+Edinburgh Lan.Edinburgh Router:
+  WAN Cloud                       0             0                0           0
+  Edinburgh Link                  0             0                0           0
+Butwal  Lan.Butwal Atm 1-30:
+  Butwal Link                     0             0                0           0
+
+Butwal  Lan.Butwal Teller Machaine:
+  Butwal Link                     0             0                0           0
+Butwal  Lan.Butwal Router:
+  WAN Cloud                       0             0                0           0
+  Butwal Link                     0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    12
+
+                            19031269-Anshul-Agarwal                             
+
+                        NODES: OUTPUT PORT BUFFER POLICY                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+NODE:                    PACKETS        PACKETS          PACKETS     PACKETS
+  CONNECTED LINKS        PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari Lan.Ithari Atm 1-30:
+  Itahari Link                    0             0                0           0
+
+Itahari Lan.ITahari Teller Machaine:
+  Itahari Link                    0             0                0           0
+Itahari Lan.Itahari Router:
+  Itahari Link                    0             0                0           0
+  WAN Cloud                       0             0                0           0
+Edinburgh Lan.Edinburgh Server:
+  Edinburgh Link                  0             0                0           0
+Edinburgh Lan.Edinburgh Router:
+  WAN Cloud                       0             0                0           0
+  Edinburgh Link                  0             0                0           0
+Butwal  Lan.Butwal Atm 1-30:
+  Butwal Link                     0             0                0           0
+
+Butwal  Lan.Butwal Teller Machaine:
+  Butwal Link                     0             0                0           0
+Butwal  Lan.Butwal Router:
+  WAN Cloud                       0             0                0           0
+  Butwal Link                     0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    13
+
+                            19031269-Anshul-Agarwal                             
+
+                           LINKS: CHANNEL UTILIZATION                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             FRAMES           TRANSMISSION DELAY (MS)       %
+LINK                   DELIVERED RST/ERR  AVERAGE    STD DEV    MAXIMUM   UTIL
+_____________________  _________ ______  _________  _________  _________  _____
+
+Itahari Lan.Itahari Li     19022      0      0.073      0.028      0.722 2.2547
+Edinburgh Lan.Edinburg     12737      0      0.038      0.014      0.082 0.8031
+Butwal  Lan.Butwal Lin     19064      0      0.073      0.028      0.756 2.2559
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    14
+
+                            19031269-Anshul-Agarwal                             
+
+                       LINKS: UTILIZATION BY APPLICATION                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+LINK /               PACKETS     PKTS/       BYTES       KBPS        %     UTIL
+  APP TYPES         DELIVERED     SEC      DELIVERED   DELIVERED   BYTES    (%)
+__________________  _________  _________  __________  __________  ______  _____
+
+Itahari Lan.Itahari Li
+  Other                 19022    317.033     1091107     145.481 100.000   2.25
+Edinburgh Lan.Edinburg
+  Other                 12737    212.283      658076      87.743 100.000   0.80
+Butwal  Lan.Butwal Lin
+  Other                 19064    317.733     1090638     145.418 100.000   2.26
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    15
+
+                            19031269-Anshul-Agarwal                             
+
+                         LINKS: UTILIZATION BY PROTOCOL                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+LINK /               PACKETS     PKTS/       BYTES       KBPS        %     UTIL
+  PROTOCOLS         DELIVERED     SEC      DELIVERED   DELIVERED   BYTES    (%)
+__________________  _________  _________  __________  __________  ______  _____
+
+Itahari Lan.Itahari Li
+  TCP/IP - Microso      19022    317.033     1091107     145.481 100.000   2.25
+Edinburgh Lan.Edinburg
+  TCP/IP - Microso      12737    212.283      658076      87.743 100.000   0.80
+Butwal  Lan.Butwal Lin
+  TCP/IP - Microso      19064    317.733     1090638     145.418 100.000   2.26
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    16
+
+                            19031269-Anshul-Agarwal                             
+
+                               LINKS: FRAME SIZE                                
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                          FRAME SIZES (BYTES)       
+LINK                     COUNT       AVERAGE      STD DEV      MAXIMUM
+_____________________   _________  ___________  ___________  ___________
+
+Itahari Lan.Itahari Li      19022       88.896       31.527      170.000
+Edinburgh Lan.Edinburg      12737       75.666       27.771      164.000
+Butwal  Lan.Butwal Lin      19064       88.748       31.365      170.000
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    17
+
+                            19031269-Anshul-Agarwal                             
+
+                             LINKS: COLLISION STATS                             
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+
+LINK NAME                  Itahari      Butwal  
+                          Lan.Itahar  Lan.Butwal
+                            i Link       Link   
+
+ACCESS PROTOCOL              CSMA/CD     CSMA/CD
+
+COLLISION EPISODES                61          60
+
+COLLIDED FRAMES                  122         120
+
+NBR OF TRIES TO RESOLVE
+  AVERAGE                       1.44        1.40
+  STANDARD DEVIATION            0.58        0.62
+  MAXIMUM                          3           3
+
+NBR OF DEFERRALS                 262         267
+
+DEFERRAL DELAY  (MS)
+  AVERAGE                       0.04        0.04
+  STANDARD DEVIATION            0.03        0.03
+  MAXIMUM                       0.12        0.13
+
+DEFERRAL QUEUE SIZE  (FRAMES)
+  AVERAGE                       0.00        0.00
+  STANDARD DEVIATION            0.01        0.01
+  MAXIMUM                          2           2
+
+MULTIPLE COLLISION EPISODES
+  NBR EPISODES                     0           0
+  AVG PER EPISODE               0.00        0.00
+  MAX PER EPISODE                  0           0
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    18
+
+                            19031269-Anshul-Agarwal                             
+
+                            LINKS: TOKEN RING STATS                             
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                            TOKEN              NODES     ACTIVE       FDDI
+                       ROTATION TIME (MS)     ACTIVE     TIME (MS)  RT/TTRT>2
+LINK                   AVERAGE    STD DEV       AVG        AVG        COUNT
+_____________________  _________  _________  _________  _________    ________
+
+*********************      0.011      0.015      0.008      0.038      N/A   
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    19
+
+                            19031269-Anshul-Agarwal                             
+
+                              LINKS: SESSION LEVEL                              
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                  SESSIONS IN PROGRESS
+LINK                        AVERAGE       STD DEV    MAXIMUM
+______________________   ___________   ___________   ________
+
+Itahari Lan.Itahari Li          0.00          0.00          0
+Edinburgh Lan.Edinburg          0.00          0.00          0
+Butwal  Lan.Butwal Lin          0.00          0.00          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    20
+
+                            19031269-Anshul-Agarwal                             
+
+                         WAN CLOUDS: FRAME DELAY BY VC                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                      FRAME DELAY (MS)               BURST SIZE (kb)
+  VC                      AVG      STD      MAX           AVG           MAX
+______________________  _______  _______  _______    ____________  ____________
+
+WAN Cloud
+  Itahari-Edinburgh        1164      697     2518             158           320
+  Edinburgh-Itahari          17        0       17             111           243
+  Edinburgh-butwal           17        0       22             111           251
+  Butwal-Edinburgh         1168      701     2522             159           320
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    21
+
+                            19031269-Anshul-Agarwal                             
+
+                         WAN CLOUDS: FRAME COUNTS BY VC                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                                    FRAMES / KILOBITS
+  VC:  FRAMES                    ACCEPTED                     DROPPED
+       KILOBITS            NORMAL          DE           NORMAL          DE
+______________________  ____________  ____________   ____________  ____________
+
+WAN Cloud               (TOTAL KILOBITS TRANSMITTED =         5265 )
+  Itahari-Edinburg Frm          1616          1570              0          9459
+                    kb           803           810              0          4656
+  Edinburgh-Itahar Frm          2304           882              0             0
+                    kb           737           282              0             0
+  Edinburgh-butwal Frm          2303           880              0             0
+                    kb           737           282              0             0
+  Butwal-Edinburgh Frm          1600          1582              0          9569
+                    kb           804           808              0          4692
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    22
+
+                            19031269-Anshul-Agarwal                             
+
+                         WAN CLOUDS: ACCESS LINK STATS                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                            FRAMES            BUFFER (BYTES)       % UTIL
+  ACCESS LINK  (ENTRY)     ACCEPTED    DROPPED    MAX     AVG     STD          
+               (EXIT)                                                          
+________________________  __________  _________  ______  ______  ______  ______
+
+WAN Cloud
+  Itahari Access   Entry        3186       9459    N/A     N/A     N/A    97.44
+                    Exit        3186          0      80       7      15   17.26
+  Edinburgh Access Entry        6369          0    N/A     N/A     N/A    34.50
+                    Exit        6368          0   33930    7808   10305   49.97
+  Butwal Access    Entry        3182       9569    N/A     N/A     N/A    98.03
+                    Exit        3183          0     123       7      15   17.25
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    23
+
+                            19031269-Anshul-Agarwal                             
+
+                     WAN CLOUDS: CLOUD ACCESS BUFFER POLICY                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                          FRAMES  
+  ACCESS LINK               EPD         PPD    
+________________________  __________  _________
+
+WAN Cloud
+  Itahari Access                   0          0
+  Edinburgh Access                 0          0
+  Butwal Access                    0          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    24
+
+                            19031269-Anshul-Agarwal                             
+
+                       WAN CLOUDS: CLOUD VC BUFFER POLICY                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+CLOUD:                    FRAMES         FRAMES           FRAMES      FRAMES
+  ACCESS LINK            PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   ________
+
+WAN Cloud
+Itahari Access                   0              0               0           0
+Edinburgh Access                 0              0               0           0
+Butwal Access                    0              0               0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    25
+
+                            19031269-Anshul-Agarwal                             
+
+                              WAN CLOUDS: EPD/PPD                               
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+CLOUD:                    FRAMES         FRAMES           FRAMES      FRAMES
+  ACCESS LINK            PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   ________
+
+WAN Cloud
+Itahari Access                   0              0               0           0
+Edinburgh Access                 0              0               0           0
+Butwal Access                    0              0               0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    26
+
+                            19031269-Anshul-Agarwal                             
+
+                   MESSAGE + RESPONSE SOURCES: MESSAGE DELAY                    
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu        518   21512.131 MS  13604.146 MS  51179.183 MS
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu          1    1008.668 MS      0.000 MS   1008.668 MS
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                          0       0.000 MS      0.000 MS      0.000 MS
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu        511   21797.681 MS  14133.598 MS  51890.134 MS
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu          1   33995.972 MS      0.000 MS  33995.972 MS
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    27
+
+                            19031269-Anshul-Agarwal                             
+
+                 MESSAGE + RESPONSE SOURCES: MESSAGE DELIVERED                  
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu        980   16673.419 MS  10694.165 MS  49854.904 MS
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu          1     409.480 MS      0.000 MS    409.480 MS
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                          1   50508.307 MS      0.000 MS  50508.307 MS
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu        997   17202.065 MS  11137.576 MS  50556.655 MS
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu          2   27620.207 MS   3046.105 MS  30666.312 MS
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    28
+
+                            19031269-Anshul-Agarwal                             
+
+                    MESSAGE + RESPONSE SOURCES: PACKET DELAY                    
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                           NUMBER OF PACKETS           PACKET DELAY (MS)
+  DESTINATION LIST       CREATED DELIVERED RESENT DROPPED   AVERAGE    MAXIMUM
+______________________  ________  ________  _____  _____  _________  __________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu     15821       980   2725      0   5802.695   11715.378
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu        15         1      3      0   3771.134   11540.354
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                         2         1      0      0     22.563      25.268
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu     15850       997   2721      0   5808.222   11687.086
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu        29         2      5      0   7951.054   10027.434
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    29
+
+                            19031269-Anshul-Agarwal                             
+
+                    MESSAGE + RESPONSE SOURCES: WINDOW STATS                    
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                   WINDOW     NO. OF  CONG     PKT CREATION INTERVAL (MS)
+  DESTINATION LIST       AVG    MAX  RESETS  AVOID     AVG      MAX     STD DEV
+______________________  ______  ___  ______  ______   _______  _______  _______
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu    1.26    2    2725       0      9303    42554     7679
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu    1.25    2       3       0      8869    19831     8182
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                    0.00    0       0       0      9056     9056        0
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu    1.27    2    2721       0      9234    44191     7440
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu    1.29    2       5       0      7973     9245     1680
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    30
+
+                            19031269-Anshul-Agarwal                             
+
+                  MESSAGE + RESPONSE SOURCES: RETRANSMISSIONS                   
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                 NO. OF    NO. PACKETS    PKT RETRIES   BLCKD AFTER T-O
+  DESTINATION LIST      EVENTS     AVG    MAX    AVG     MAX    PKTS     ACKS
+______________________  _______  _______  ____  _______  ____  _______  _______
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu     2725     1.00     1     2.43     7     8602        0
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu        3     1.00     1     0.00     0        7        0
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                        0     0.00     0     0.00     0        0        0
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu     2721     1.00     1     2.46     7     8651        0
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu        5     1.00     1     2.00     2       15        0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    31
+
+                            19031269-Anshul-Agarwal                             
+
+                      MESSAGE + RESPONSE SOURCES: TIMEOUT                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                 RETRANSMIT TIMEOUT (MS)       ROUND TRIP TIME (MS)
+  DESTINATION LIST          AVG        MAX              AVG         MAX
+______________________  __________  __________       __________  __________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu     969.761   11964.230         5662.518   11917.729
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu     714.286    1500.000          448.796     448.796
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                       0.000       0.000            0.000       0.000
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu     978.065   11960.559         5550.952   11853.281
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu     566.667    1000.000            0.000       0.000
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    32
+
+                            19031269-Anshul-Agarwal                             
+
+                     MESSAGE + RESPONSE SOURCES: ACK DELAY                      
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                   NUMBER OF ACKS              ACK DELAY (MS)
+  DESTINATION LIST      CREATED    DROPPED    AVERAGE    MAXIMUM     STD DEV
+______________________  ________  ________  __________  __________  __________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu      3181         0    6263.548   11917.729    3301.886
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu         5         0     448.796     448.796       0.000
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                         2         0       0.000       0.000       0.000
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu      3175         0    6321.333   11897.236    3331.486
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu         6         0    9163.526   10249.945    1086.419
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    33
+
+                            19031269-Anshul-Agarwal                             
+
+                      MESSAGE + RESPONSE SOURCES: PKT SIZE                      
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                   MAX      MAX          PACKET SIZE 
+  DESTINATION LIST        PKT     WINDOW    MIN      AVG      MAX
+______________________  _______  _______  _______  _______  _______
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu     1460        3       50       75      100
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu     1460        3       57       72       89
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                     1460        3       43       43       43
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu     1460        3       50       74      100
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu     1460        3       43       70      100
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    34
+
+                            19031269-Anshul-Agarwal                             
+
+                     MESSAGE + RESPONSE SOURCES: BURST SIZE                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                  BURST   TRAF         BURST SIZE 
+  DESTINATION LIST       UNITS   TYPE    MIN      MAX      AVG    STD DEV
+______________________  _______  ____  _______  _______  _______  _______
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    35
+
+                            19031269-Anshul-Agarwal                             
+
+                     MESSAGE + RESPONSE SOURCES: ASSY INTVL                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                  PKTS            INTER-ASSY INTERVAL
+  DESTINATION LIST       ASS'D      MIN        MAX        AVG     STD DEV  UNIT
+______________________  _______  _________  _________  _________  _________  __
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu        0          0          0          0          0  uS
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu        0          0          0          0          0  uS
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                        0          0          0          0          0  uS
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu        0          0          0          0          0  uS
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu        0          0          0          0          0  uS
+
+
+Compuware COMNET III  Release 2.5.2.814  Sun Dec 20 21:11:18 2020   PAGE    36
+
+                            19031269-Anshul-Agarwal                             
+
+                     MESSAGE + RESPONSE SOURCES: DE PACKETS                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN:                     DE 0 PACKETS          DE 1 PACKETS       CONGEST
+  DESTINATION LIST       CREATED   DROPPED     CREATED    DROPPED    PACKETS
+______________________  _________  _________  _________  _________  ________
+
+Itahari Lan.Ithari Atm 1-30 / src Itahari ATM Message Source:
+  Edinburgh Lan.Edinbu      15821       9452          0          0         0
+Itahari Lan.ITahari Teller Machaine / src Ithahari Teller Message:
+  Edinburgh Lan.Edinbu         15          7          0          0         0
+Edinburgh Lan.Edinburgh Server / src Einburgh Response Source:
+  ECHO                          2          0          0          0         0
+Butwal  Lan.Butwal Atm 1-30 / src Butwal ATM Message Source:
+  Edinburgh Lan.Edinbu      15850       9554          0          0         0
+Butwal  Lan.Butwal Teller Machaine / src ButwalTeller Message:
+  Edinburgh Lan.Edinbu         29         15          0          0         0
